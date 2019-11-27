@@ -16,6 +16,9 @@ set statusline=%f\ [%m]\ Buffer:\ %n%=%l,%c%V\ %P
 "Auto write
 set autowrite
 
+" Disable the bell thingies.
+set noerrorbells visualbell t_vb=
+
 " Don't force write on buffer change.                                                                    
 set hidden
 
@@ -94,10 +97,13 @@ au BufNewFile,BufRead *.py
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%80v.\+/
 
-set rtp+=/usr/local/lib/python3.6/site-packages/powerline/bindings/vim
+"set rtp+=/usr/local/lib/python3.7/site-packages/powerline/bindings/vim
 let g:vim_json_syntax_conceal = 0
 
 let g:autopep8_disable_show_diff=1
 let b:syntastic_mode="passive"
 let g:gitgutter_enabled=1
 set updatetime=100
+
+let g:scratch_autohide=0
+let g:scratch_insert_autohide=0
