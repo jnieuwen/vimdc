@@ -22,3 +22,4 @@ https://github.com/vim-scripts/indentpython.vim
 https://tpope.io/vim/unimpaired.git
 https://github.com/ap/vim-buftabline
 https://github.com/voldikss/vim-floaterm
+https://github.com/ntpeters/vim-better-whitespace
