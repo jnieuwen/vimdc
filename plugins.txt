@@ -21,3 +21,4 @@ https://github.com/vim-airline/vim-airline
 https://github.com/vim-scripts/indentpython.vim
 https://tpope.io/vim/unimpaired.git
 https://github.com/ap/vim-buftabline
+https://github.com/voldikss/vim-floaterm
